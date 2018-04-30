@@ -2,18 +2,19 @@
 - - -
 Convert numbers to words - تبدیل عدد به حروف فارسی.
 
-## نصب با npm
+##  توضیحات 
 - - -
-با استفاده از این ماژول شما میتوانید اعداد را از ورودی ارسال کنید و به صورت حروف از خروجی دریافت کنید.
+با استفاده از این کتاب خانه شما میتوانید اعداد به تابع آن بفرستید و به صورت حروف خروجی بگیرید
+.
 تقدیم به فارسی زبان های عزیز
 
-## نصب با npm
+## npm نصب با 
 
 ```bash
 npm i --save persian-number-tostring
 ```
 
-## نصب با bower
+## bower نصب با 
 
 ```bash
 bower install persian-number-tostring
@@ -25,7 +26,7 @@ var PersianNumberToString = require('persian-number-tostring');
 PersianNumberToString(1234); // => 'هزار و دویست و سی و چهار'
 ```
 
-## استفاده در صفحات html 
+## html استفاده در صفحات  
 کافی است فایل مورد نظر را به صفحه خود اضافه کنید
 
 
@@ -53,6 +54,9 @@ PersianNumberToString(1234); // => 'هزار و دویست و سی و چهار'
 </html>
 
 ```
+## حامی
+www.shosterofte.com
+
 ## License
 This code is licensed under the MIT license for Javad Rajabi. For more
 information, please refer to the [LICENSE](/LICENSE) file.
