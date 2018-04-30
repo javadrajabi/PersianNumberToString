@@ -1,0 +1,27 @@
+{
+  "name": "written-number",
+  "description": "Convert numbers to words - تبدیل عدد به حروف فارسی",
+  "homepage": "https://",
+  "main": "./dist/persiannumbertostring.js",
+  "version": "0.2.2",
+  "keywords": [
+    "numbers",
+    "words",
+    "localization"
+  ],
+  "ignore": [
+    ".gitignore",
+    ".travis.yml",
+    "package.json",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "lib"
+  ],
+  "authors": [
+    "Javad Rajabi"
+  ],
+  "license": "MIT"
+}

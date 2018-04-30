@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html >
+<html>
+<head>
+    <title>PersianNumberToString.min.js" type="text/javascript"></script>
+</head>
+</title>
+    <meta charset="utf-8">
+<meta charset="utf-8">
+    <script src="../dist/PersianNumberToString.min.js" type="text/javascript"></script>
+</head>
+<body>
+	<input id="number" type="text" />
+	<input type="button" onclick="convert()" value="Convert" />
+	<br>
+	<span id="result"></span>
+	<script type="text/javascript">
+	     function convert() {
+	         var number = document.getElementById("number").value;
+	         var resultTag = document.getElementById("result");
+
+	         resultTag.innerHTML = convertNumberToString(number);
+	     }
+	</script>
+ </body>
+</html>

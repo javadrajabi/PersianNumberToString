@@ -1,0 +1,53 @@
+{
+  "name": "PersianNumberToString",
+  "version": "0.1.0",
+  "description": "Convert numbers to words - تبدیل عدد به حروف فارسی",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": " mocha --require blanket -R mocha-spec-cov-alt"
+  },
+  "keywords": [
+    "written",
+    "number",
+    "persian",
+    "int",
+    "word",
+    "words",
+    "numbers to words",
+    "human",
+    "spoken"
+  ],
+  "author": "Javad rajabi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/javadrajabi/PersianNumberToString"
+  },
+  "devDependencies": {
+    "blanket": "1.1.7",
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.0.0",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "mocha": "^2.2",
+    "mocha-spec-cov-alt": "^1.1.1",
+    "mversion": "^1.10.0",
+    "should": "^9.0.0"
+  },
+  "config": {
+    "blanket": {
+      "data-cover-never": [
+        "node_modules"
+      ],
+      "pattern": [
+        "lib"
+      ],
+      "spec-cov": {
+        "threshold": 80,
+        "localThreshold": 80,
+        "lcovOutput": "lcov"
+      }
+    }
+  }
+}
