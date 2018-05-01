@@ -23,6 +23,7 @@ bower install persian-number-tostring
 ## طریقه استفاده
 ```javascript
 var PersianNumberToString = require('persian-number-tostring');
+PersianNumberToString("1234"); // => 'هزار و دویست و سی و چهار'
 PersianNumberToString(1234); // => 'هزار و دویست و سی و چهار'
 ```
 
