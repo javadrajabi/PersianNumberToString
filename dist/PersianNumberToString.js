@@ -160,7 +160,7 @@ function PersianNumberToString(inputNumber) {
         outString += partFullString[i];
     }
 
-    if (inputNumber.substr(0, 1) == "-") {
+    if (inputNumber.toString().substring(0, 1) == "-") {
         outString = negative + " " + outString;
     }
 
