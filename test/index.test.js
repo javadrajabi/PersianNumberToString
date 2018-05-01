@@ -32,6 +32,7 @@ describe('convertNumberToString', function() {
 
     it('correctly converts numbers < 10', function() {
       convertNumberToString(1000000000).should.equal('یک میلیارد');
+      convertNumberToString("1000000000").should.equal('یک میلیارد');
       convertNumberToString(3).should.equal('سه');
       convertNumberToString(8).should.equal('هشت');
     });
